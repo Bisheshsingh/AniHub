@@ -1,16 +1,17 @@
-import WithErrorHandler from "../components/WithErrorHandler";
+import WithErrorHandler from "../hoc/WithErrorHandler";
 import NavBar from "../components/NavBar";
-import Spinner from "../components/Spinner";
+import WithAnimeStore from "../hoc/WithAnimeStore";
+import AnimeList from "../components/AnimeList";
 
 const Home = () => {
     return (
-        <div>
+        <div className="HomePage">
             <NavBar/>
-            <div className="homeBg" style={{height: '100vh', width: '100%'}}>
-                {/*<Spinner/>*/}
+            <div className="mt-5">
+                <AnimeList/>
             </div>
         </div>
     );
 }
 
-export default WithErrorHandler(Home);
+export default WithAnimeStore(WithErrorHandler(Home));

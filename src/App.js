@@ -6,6 +6,7 @@ import Support from "./pages/Support"
 import NotFoundPage from "./pages/NotFoundPage"
 import {Route, Routes} from "react-router";
 import {BrowserRouter} from "react-router-dom";
+import Help from "./pages/Help";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route index element={ <Home/> }></Route>
             <Route exact path="/anime" element={ <Anime/> }></Route>
             <Route exact path="/support" element={ <Support/> }></Route>
+            <Route exact path="/help" element={ <Help/> }></Route>
             <Route exact path="*" element={ <NotFoundPage/> }></Route>
           </Routes>
         </BrowserRouter>

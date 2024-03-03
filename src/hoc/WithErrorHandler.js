@@ -1,4 +1,4 @@
-import ErrorHandler from "../pages/ErrorHandler";
+import ErrorHandler from "../components/ErrorHandler";
 
 const WithErrorHandler = Component => props => {
     return (

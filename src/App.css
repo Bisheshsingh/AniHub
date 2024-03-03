@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+body {
+    background-color: #040f13;
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;
@@ -24,12 +28,6 @@
     color: white;
 }
 
-.homeBg {
-    background-color: #040f13;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .btn-custom {
     margin-left: 45%;
     background-color: transparent;
@@ -50,6 +48,7 @@
 #sidebar {
     position: fixed;
     left: -250px;
+    z-index: 1;
     top: 0;
     bottom: 0;
     width: 250px;

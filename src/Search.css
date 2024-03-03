@@ -1,0 +1,9 @@
+/* Style for the circular input */
+.circular-input {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: lightgoldenrodyellow;
+    width: 100%; /* Set width relative to its container */
+    border-radius: 20px; /* Adjust the value to change the roundness */
+    padding: 10px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Border color */
+}
