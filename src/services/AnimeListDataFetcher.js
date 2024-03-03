@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const MAIN_URL = 'http://localhost:8080';
+const MAIN_URL = 'https://anihubbackend.osc-fr1.scalingo.io';
 
 const AnimeListDataFetcher = {
     getAll: async () => {
