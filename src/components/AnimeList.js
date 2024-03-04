@@ -19,7 +19,7 @@ const AnimeList = () => {
     }, [dispatch]);
 
     return (
-        <div className="row">
+        <div className="row m-3">
             {
                 state.loading ? <Spinner/>
                     : state.animes.map(anime => (
